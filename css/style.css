@@ -1,0 +1,176 @@
+@font-face {
+    font-family: Sketchzone;
+    src: url(../assets/fonts/Sketchzone.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1.5px;
+}
+
+.logo{
+    font-family: Sketchzone;
+    color: #CCF654 !important;
+    text-shadow: 3px 3px 1px #595c5f83;
+}
+
+.container .principal{
+    text-align: center;
+}
+
+.hr{
+    height:3px !important;
+    border-width:0 !important;
+    color:black !important;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #CCF654;
+    --bs-btn-border-color: #CCF654;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #CCF654;
+    --bs-btn-hover-border-color: #fff;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #CCF654;
+    --bs-btn-active-bg: #CCF654;
+    --bs-btn-active-border-color: #CCF654;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #CCF654;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #CCF654;
+    --bs-gradient: none;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #CCF654;
+    --bs-btn-border-color: #CCF654;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #CCF654;
+    --bs-btn-hover-border-color: #CCF654;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #CCF654;
+    --bs-btn-active-border-color: #CCF654;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #CCF654;
+    --bs-btn-disabled-border-color: #CCF654;
+}
+
+
+
+.main-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .login-container {
+    background-color: #fff;
+    padding: 60px 40px 60px 40px;
+    width: 60vh;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 2);
+  }
+
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Sketchzone;
+  }
+
+  .form-group-login {
+    margin-bottom: 10px;
+  }
+
+  .form-group-login label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .form-group-login input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-group-login button {
+    width: 100%;
+    padding: 8px;
+    background-color: #0400ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  @keyframes animacaoMeia {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .meia {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    animation: animacaoMeia 4s infinite linear;
+  }
+
+  .banner-home{
+    position: absolute;
+  }
+
+  .banner-home h1{
+    font-family: Sketchzone;
+    font-size: 12vh;
+  }
+
+  #pisca-pisca{
+    padding: 20vh 0vh 20vh 0vh;
+  }
+
+  .meia-gira1{
+    background-image: url('../assets/images/meiagira01.png');    
+  }
+
+  .meia-gira2{
+    background-image: url('../assets/images/meiagira02.png');
+  }
+
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #595C5F;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #595C5F;
+    --bs-nav-link-hover-color: #CCF654;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
